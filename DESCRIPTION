@@ -1,0 +1,12 @@
+Package: format.genescan
+Title: What the Package Does (Format Genescan Files)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jack", "Clark", , "first.last@example.com", role = c("aut", "cre"))
+Description: A one function package to format GeneScan fragment analysis excel files after being exported from ThermoFishers peak scanner application. Automatically obtains the primary, secondary and tertiary peaks of a given dye colour above a certain size for each sample, and calculates the ratio between the primary and secondary peaks. 
+License: `use_mit_license()`, `use_gpl3_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+	openxlsx
